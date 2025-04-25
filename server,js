@@ -1,0 +1,48 @@
+const express = require('express');
+const mongoose = require('mongoose');
+const cors = require('cors');
+const bodyParser = require('body-parser');
+const axios = require('axios'); // To call Flask ML API
+
+const app = express();
+app.use(cors());
+app.use(bodyParser.json());
+
+// MongoDB Connection
+mongoose.connect('mongodb://localhost:27017/ecommerce_reviews', {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
+
+// Review Schema
+const reviewSchema = new mongoose.Schema({
+  productId: String,
+  userId: String,
+  text: String,
+  starRating: Number,
+  sentiment: String, // "Positive", "Neutral", "Negative"
+});
+
+const Review = mongoose.model('Review', reviewSchema);
+
+// API to submit a review
+app.post('/api/reviews', async (req, res) => {
+  const { productId, userId, text, starRating } = req.body;
+
+  // Call Flask ML API to analyze sentiment
+  const flaskResponse = await axios.post('http://localhost:5000/analyze', { text });
+  const sentiment = flaskResponse.data.sentiment;
+
+  const review = new Review({ productId, userId, text, starRating, sentiment });
+  await review.save();
+
+  res.json({ success: true, review });
+});
+
+// API to get all reviews of a product
+app.get('/api/reviews/:productId', async (req, res) => {
+  const reviews = await Review.find({ productId: req.params.productId });
+  res.json(reviews);
+});
+
+app.listen(5001, () => console.log('Node.js server running on port 5001'));
